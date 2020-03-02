@@ -47,7 +47,7 @@ while counter < src.count do
     number += src[counter][0] + src[counter][1]
 end
 
-
+end
 
 number
 
