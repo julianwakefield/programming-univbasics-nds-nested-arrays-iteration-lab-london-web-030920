@@ -19,11 +19,10 @@ def find_greater_pair(src)
 new_array = 0
 counter = 0
 
-while src.count do
-  if counter < new_array
+while src[0].count do
+  if counter < count + 1
     new_array << counter
 else counter =+ 1
-
 
 new_array
 
