@@ -20,9 +20,12 @@ new_array = []
 counter = 0
 
 while counter < src.count do
-  src[counter][0]
+  if src[counter][0] < src[counter][1]
+    new_array << src[counter][1]
+else
+  new_array << src[counter][0]
 
-
+end
 
 end
 new_array
