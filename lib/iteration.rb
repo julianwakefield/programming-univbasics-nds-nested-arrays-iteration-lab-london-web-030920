@@ -44,7 +44,7 @@ counter = 0
 
 while counter < src.count do
   if src[counter][0] % 2 == 0 && src[counter][1] % 2 == 0
-    number = src[counter][0] + src[counter][1]
+    number += src[counter][0] + src[counter][1]
 
 end
 
