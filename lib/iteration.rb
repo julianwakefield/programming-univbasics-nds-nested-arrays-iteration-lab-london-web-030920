@@ -23,7 +23,7 @@ while src.count do
   if counter < new_array
     new_array << counter
 else counter =+ 1
-end
+
 
 new_array
 
