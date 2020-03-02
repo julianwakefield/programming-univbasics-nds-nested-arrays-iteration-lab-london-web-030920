@@ -26,7 +26,7 @@ else
   new_array << src[counter][0]
 
 end
-
+ counter += 1
 end
 new_array
 
