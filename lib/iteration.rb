@@ -16,7 +16,7 @@ end
 
 def find_greater_pair(src)
 
-new_array = 0
+new_array = []
 counter = 0
 
 while src[0].count do
