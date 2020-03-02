@@ -24,7 +24,7 @@ while src.count do
     new_array << counter
 else counter =+ 1
 end
-end
+
 new_array
 
 end
