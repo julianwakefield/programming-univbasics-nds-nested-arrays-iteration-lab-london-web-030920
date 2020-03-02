@@ -46,8 +46,10 @@ while counter < src.count do
   if src[counter][0] % 2 == 0 && src[counter][1] % 2 == 0
     number += src[counter][0] + src[counter][1]
 end
-number
+
 end
+
+number
 
 
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
